@@ -1,6 +1,5 @@
 # React + Vite To-Do List App
 
-Here's the README with a text-only description:
 
 ---
 
@@ -82,4 +81,3 @@ This app is styled using `tailwindcss`, providing a clean, responsive, and user-
 
 --- 
 
-This text gives users an overview, setup instructions, and details about how to use each feature without showing any code snippets. Let me know if you need more sections or specific information!
