@@ -1,9 +1,9 @@
 import ToDoItem from "./ToDoItem";
 
-function ToDoList({toDos,deleteTask, toggleComplete, editTask}){
-    return(
-        <>
-        {toDos.map(todo => (
+function ToDoList({ toDos = [], deleteTask, toggleComplete, editTask }) {
+  return (
+    <div className="todo-list">
+      {toDos.map((todo) => (
         <ToDoItem
           key={todo.id}
           todo={todo}
@@ -12,8 +12,8 @@ function ToDoList({toDos,deleteTask, toggleComplete, editTask}){
           editTask={editTask}
         />
       ))}
-        </>
-    )
+    </div>
+  );
 }
 
 export default ToDoList;
